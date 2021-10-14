@@ -32,7 +32,7 @@ public class EnemyManager : MonoBehaviour
 
         //Menduplikasi Enemy
         Factory.FactoryMethod(spawnEnemy);
-        //Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+        Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 
     }
 }

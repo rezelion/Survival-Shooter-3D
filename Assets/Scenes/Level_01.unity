@@ -438,7 +438,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -423.59998, y: -279.7974}
+  m_AnchoredPosition: {x: 25, y: 25}
   m_SizeDelta: {x: 35.42, y: 35.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &688900350
@@ -994,7 +994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1417747308}
   enemy: {fileID: 1035072590, guid: f264ab47e25d0374ba89abced0b94b2a, type: 3}
-  spawnTime: 3
+  spawnTime: 5
   spawnPoints:
   - {fileID: 2031692542}
   factory: {fileID: 1681878432}
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHealth: {fileID: 1417747308}
   enemy: {fileID: 497602639, guid: 8b78f0154d8c20b45a5efce7550818c6, type: 3}
-  spawnTime: 3
+  spawnTime: 4
   spawnPoints:
   - {fileID: 562815112}
   factory: {fileID: 1681878432}
@@ -6636,10 +6636,10 @@ RectTransform:
   m_Father: {fileID: 943190776}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 162, y: 61}
+  m_SizeDelta: {x: 240, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1681878431
 GameObject:
@@ -6815,7 +6815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -311.99997, y: -280.09735}
+  m_AnchoredPosition: {x: 140, y: 25}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1831094731
